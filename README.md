@@ -12,4 +12,9 @@ Contributors / Licensing
 
 Generally everything is LICENSE'D under the Apache 2 license by Abram Hindle.
 
+server.py and static/index.html contains contributions from:
+
+* Abram Hindle
+* Yufei Zhang
+
 
