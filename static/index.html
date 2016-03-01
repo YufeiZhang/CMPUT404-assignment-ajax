@@ -60,11 +60,9 @@ function getColor(){
         r = 16 * (79 - colorNum);
         color = "#" + r.toString(16) + "00FF";
     } 
-    else { // #FF00FF ~ #808080 80~95
-        r = 16 * (95 - colorNum);
-        g = 16 * (colorNum - 80);
+    else { // #FF00FF ~ #FF0000 80~95
         b = 16 * (95 - colorNum);
-        color = "#" + r.toString(16) + g.toString(16) + b.toString(16);
+        color = "#FF00" + b.toString(16);
     }
 
     if (colorNum < 96){
